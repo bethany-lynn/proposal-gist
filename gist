@@ -1,0 +1,37 @@
+Project Proposal
+an app for user to create a D&D character, interact with the character sheet/add and update info
+will also be able to save login and save information, and create multiple characters
+
+
+Technologies Required
+http://www.dnd5eapi.co/
+D&D API with a pretty wide amount of information
+will use for class descriptions, race descriptions, and spell/attack information
+
+
+Data Model
+(https://drive.google.com/file/d/1PIvzSpFg6eZjQ1w6xgWZQMozdgo_uu-f/view?usp=sharing)
+
+
+Roadmap
+
+MVP
+user login with username/email and password
+creation page - lists of classes and races (API) - lists of spells and attacks (API)
+profile page with saved character information and option to add more sheets
+
+
+2.0
+add all playing die to use during campaigns
+autmatically update modifiers depending on stat input (ex - wisdom = 16 will automatically give a 3 modifier)
+automatically provide all strengths depending on class and race, and give a basic pack of items for each starting character - (can be edited if the user doesn't want to work with the default)
+
+
+Nice-to-haves
+connect with other players and add party members to group
+create a DM specific page with features to add monsters and map information
+give DM authority over certain information to override player sheets (ex: an alert button that a monster has appeared)
+
+
+Notes
+I want to prioritize the sheet being easy to work with, flexible, designed aesthetically well, and easy to build upon.
